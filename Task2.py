@@ -6,6 +6,9 @@ import tkinter.ttk as ttk
 # TODO: Use add_trace()
 # TODO: check trace_info
 
+# TODO: This implementation is bad
+# You should separate the Data about temperature and presentation of it, so that they will not infinitely update each other.
+
 root = tk.Tk()
 root.title("Task1")
 root.rowconfigure(0, weight=1)
