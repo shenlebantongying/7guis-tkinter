@@ -8,6 +8,7 @@ import tkinter.ttk as ttk
 
 # TODO: This implementation is bad
 # You should separate the Data about temperature and presentation of it, so that they will not infinitely update each other.
+# Its called "bidirectional data flow". However, if they just share a space, the "flow" doesn't required at all.
 
 root = tk.Tk()
 root.title("Task1")
